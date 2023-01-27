@@ -101,6 +101,18 @@
     color: #ffffff;
 }
 
+.structures {
+    font-size: 20px;
+}
+
+.structure {
+    color: #b4b5ff;
+}
+
+.section-img-3 {
+    width: 650px;
+}
+
 @media screen and (max-width:576px) {
     .about-me,
     .experience,
@@ -116,5 +128,9 @@
     .service-2 {
         position: relative;
         bottom: 0px;
+    }
+    .section-img-3 {
+        width: 400px;
+        order: 1;
     }
 }
