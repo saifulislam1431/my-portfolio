@@ -377,7 +377,7 @@ a {
 }
 
 a:hover {
-    --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+    color: #ffffff;
 }
 
 a:not([href]):not([class]),
@@ -4082,7 +4082,7 @@ fieldset:disabled .btn {
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-    color: var(--bs-nav-link-color);
+    color: #b4b5ff;
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4095,7 +4095,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--bs-nav-link-hover-color);
+    color: #8c8dca;
 }
 
 .nav-link.disabled {
@@ -4138,7 +4138,7 @@ fieldset:disabled .btn {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-    color: var(--bs-nav-tabs-link-active-color);
+    color: #7d80c7;
     background-color: var(--bs-nav-tabs-link-active-bg);
     border-color: var(--bs-nav-tabs-link-active-border-color);
 }
@@ -4205,7 +4205,7 @@ fieldset:disabled .btn {
     --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
     --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
     --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
-    --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-active-color: #7d80c7;
     --bs-navbar-brand-padding-y: 0.3125rem;
     --bs-navbar-brand-margin-end: 1rem;
     --bs-navbar-brand-font-size: 1.25rem;
@@ -4282,7 +4282,7 @@ fieldset:disabled .btn {
 .navbar-text {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    color: var(--bs-navbar-color);
+    color: #7d80c7;
 }
 
 .navbar-text a,
@@ -5101,8 +5101,8 @@ fieldset:disabled .btn {
 .active>.page-link {
     z-index: 3;
     color: var(--bs-pagination-active-color);
-    background-color: var(--bs-pagination-active-bg);
-    border-color: var(--bs-pagination-active-border-color);
+    background-color: #7d80c7;
+    border-color: #7d80c7;
 }
 
 .page-link.disabled,
@@ -9058,6 +9058,11 @@ fieldset:disabled .btn {
 .text-secondary {
     --bs-text-opacity: 1;
     color: #b4b5ff !important;
+}
+
+.text-third {
+    --bs-text-opacity: 1;
+    color: #464555 !important;
 }
 
 .text-success {
