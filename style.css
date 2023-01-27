@@ -36,7 +36,8 @@
     width: 50%;
 }
 
-.para-text {
+.para-text,
+.date {
     font-size: 18px;
 }
 
@@ -59,11 +60,61 @@
     bottom: 25px;
 }
 
+.service-1,
+.service-2,
+.service-3 {
+    box-shadow: 5px 10px 15px rgb(185, 183, 183);
+    border-radius: 10px;
+    width: 600px;
+    transition: background-color .5s ease-in-out;
+}
+
+.service-2 {
+    position: relative;
+    bottom: 50px;
+}
+
+.service-1:hover,
+.service-2:hover,
+.service-3:hover {
+    background-color: #b4b5ff;
+    color: white;
+}
+
+.sl-no>h5 {
+    font-size: 30px;
+    color: white;
+}
+
+.sl-no {
+    position: relative;
+    bottom: 48px;
+    left: 252px;
+    background-color: #b4b5ff;
+    border-bottom-left-radius: 60px;
+    padding: 20px;
+    width: 100px;
+}
+
+.view-btn {
+    background-color: #b4b5ff;
+    color: #ffffff;
+}
+
 @media screen and (max-width:576px) {
     .about-me,
     .experience,
     .education,
     .reference {
         width: 100%;
+    }
+    .service-1,
+    .service-2,
+    .service-3 {
+        width: 400px;
+    }
+    .service-2 {
+        position: relative;
+        bottom: 0px;
     }
 }
