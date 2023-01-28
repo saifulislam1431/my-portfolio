@@ -113,6 +113,80 @@
     width: 650px;
 }
 
+.project {
+    width: 400px;
+    box-shadow: 0px 5px 15px lightgrey;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.view-site,
+.show-more {
+    margin-top: 20px;
+    padding: 5px 20px;
+    border: none;
+    background-color: #b4b5ff;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 500;
+    transition: background-color .5s ease;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 40px;
+}
+
+.view-site>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.view-site:hover,
+.show-more:hover {
+    background-color: #6d6ec5;
+}
+
+.project-img {
+    width: 350px;
+    border-radius: 10px;
+    transition: filter .5s ease;
+}
+
+.project:hover .project-img {
+    filter: grayscale(100);
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skill {
+    text-align: center;
+    box-shadow: 0px 5px 15px lightgrey;
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    color: #464555;
+    transition: all .6s ease;
+}
+
+hr {
+    border: 1px solid #464555;
+}
+
+.skill:hover {
+    background-color: #b4b5ff;
+    color: white;
+    transform: translate(2px, 2px);
+    width: 170px;
+    height: 170px;
+}
+
 @media screen and (max-width:576px) {
     .about-me,
     .experience,
@@ -132,5 +206,8 @@
     .section-img-3 {
         width: 400px;
         order: 1;
+    }
+    .project-img {
+        width: 280px;
     }
 }
