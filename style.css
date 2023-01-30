@@ -146,7 +146,8 @@
 }
 
 .view-site:hover,
-.show-more:hover {
+.show-more:hover,
+.blog-btn:hover {
     background-color: #6d6ec5;
 }
 
@@ -186,6 +187,62 @@ hr {
     width: 170px;
 }
 
+
+/* Blogs */
+
+.blog {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px lightgrey;
+}
+
+.blog-img {
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.blog-btn {
+    padding: 5px 5px;
+    border: none;
+    background-color: #b4b5ff;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    transition: background-color .5s ease;
+}
+
+.blogs-first {
+    height: 500px;
+}
+
+.date-time,
+.blog-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.time,
+.comment {
+    font-size: 16px;
+}
+
+.details {
+    padding: 10px;
+}
+
+.blog2-img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.blog-second {
+    width: 550px;
+}
+
 @media screen and (max-width:576px) {
     .about-me,
     .experience,
@@ -208,5 +265,11 @@ hr {
     }
     .project-img {
         width: 280px;
+    }
+    .blog-second {
+        width: 400px;
+    }
+    .blog-second {
+        margin-top: 480px;
     }
 }
