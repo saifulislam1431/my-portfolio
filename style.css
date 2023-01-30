@@ -113,6 +113,9 @@
     width: 650px;
 }
 
+
+/* My projects */
+
 .project {
     width: 400px;
     box-shadow: 0px 5px 15px lightgrey;
@@ -160,6 +163,9 @@
 .project:hover .project-img {
     filter: grayscale(100);
 }
+
+
+/* Skills */
 
 .skills-container {
     display: flex;
@@ -287,6 +293,40 @@ textarea:focus {
     justify-content: center;
 }
 
+
+/* Footer */
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.foot-icon {
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #464555;
+    border-radius: 30px;
+    color: white;
+}
+
+.phone,
+.email,
+.address {
+    padding-bottom: 30px;
+}
+
+.foot-end {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+}
+
 @media screen and (max-width:576px) {
     .about-me,
     .experience,
@@ -297,21 +337,27 @@ textarea:focus {
     .service-1,
     .service-2,
     .service-3 {
-        width: 400px;
+        width: 340px;
     }
     .service-2 {
         position: relative;
         bottom: 0px;
     }
+    .sl-no {
+        left: 192px;
+    }
     .section-img-3 {
-        width: 400px;
+        width: 380px;
         order: 1;
+    }
+    .project {
+        width: 320px;
     }
     .project-img {
         width: 280px;
     }
     .blog-second {
-        width: 400px;
+        width: 340px;
     }
     .blog-second {
         margin-top: 480px;
@@ -324,5 +370,11 @@ textarea:focus {
     }
     .contact-img {
         width: 320px;
+    }
+    .footer-section {
+        flex-direction: column-reverse;
+    }
+    .foot-end {
+        flex-direction: column;
     }
 }
